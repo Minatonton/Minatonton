@@ -1,0 +1,198 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400" role="img" aria-label="Minatonton — Software Engineer · Traveler · Poker Player">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fdf7ec"/>
+      <stop offset="0.55" stop-color="#fae2bf"/>
+      <stop offset="1" stop-color="#f4bd8f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fbd29c" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#fbd29c" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="haze" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e6d2b6"/>
+      <stop offset="1" stop-color="#efdcc2"/>
+    </linearGradient>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+    <clipPath id="frame"><rect width="1200" height="400" rx="20"/></clipPath>
+    <path id="trail" d="M215 364 C330 344 440 354 570 347 S860 336 1035 350"/>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="400" fill="url(#sky)"/>
+    <circle cx="980" cy="195" r="160" fill="url(#glow)"/>
+    <circle cx="980" cy="195" r="46" fill="#f3a25f"/>
+
+    <g fill="#ffffff" opacity="0.6">
+      <animateTransform attributeName="transform" type="translate" values="0 0;36 0;0 0" dur="48s" repeatCount="indefinite"/>
+      <ellipse cx="220" cy="190" rx="72" ry="13"/>
+      <ellipse cx="262" cy="180" rx="44" ry="11"/>
+      <ellipse cx="1010" cy="120" rx="80" ry="12"/>
+      <ellipse cx="1050" cy="110" rx="40" ry="10"/>
+    </g>
+
+    <g fill="none" stroke="#7a6656" stroke-width="1.6" stroke-linecap="round">
+      <path d="M690 182 q6 -6 12 0 q6 -6 12 0"/>
+      <path d="M722 170 q5 -5 10 0 q5 -5 10 0"/>
+      <path d="M708 198 q4 -4 8 0 q4 -4 8 0"/>
+    </g>
+
+    <path d="M0 252 L90 210 L170 238 L260 196 L360 232 L470 204 L560 234 L660 200 L760 230 L880 196 L1000 232 L1100 204 L1200 228 V400 H0 Z" fill="url(#haze)"/>
+
+    <g fill="#b8a08b">
+      <path d="M0 293 Q200 282 400 291 T800 289 T1200 291 V400 H0 Z"/>
+
+      <g stroke="#b8a08b" stroke-width="3" stroke-linecap="round" fill="none">
+        <path d="M70 291 Q66 266 74 246"/>
+        <path d="M74 246 q-16 -2 -24 8 M74 246 q-12 -10 -22 -6 M74 246 q14 -8 24 -2 M74 246 q12 2 18 12 M74 246 q2 -12 -4 -18"/>
+        <path d="M102 291 Q100 272 106 258"/>
+        <path d="M106 258 q-13 -2 -20 6 M106 258 q-9 -9 -18 -5 M106 258 q11 -7 20 -2 M106 258 q10 2 15 10"/>
+      </g>
+
+      <path d="M148 291 L155 262 Q160 240 190 238 Q222 240 226 262 L233 291 Z"/>
+
+      <rect x="262" y="232" width="8" height="59"/>
+      <rect x="260" y="228" width="12" height="5" rx="2"/>
+      <rect x="344" y="232" width="8" height="59"/>
+      <rect x="342" y="228" width="12" height="5" rx="2"/>
+      <rect x="280" y="248" width="62" height="43"/>
+      <path d="M296 248 Q311 216 326 248 Z"/>
+      <path d="M300 291 V270 Q311 255 322 270 V291 Z" fill="#a58b76"/>
+
+      <path d="M415 291 V262 Q446 222 477 262 V291 Z"/>
+      <path d="M400 291 V274 Q412 262 424 274 V291 Z"/>
+      <path d="M468 291 V274 Q480 262 492 274 V291 Z"/>
+      <line x1="446" y1="224" x2="446" y2="212" stroke="#b8a08b" stroke-width="2"/>
+      <rect x="390" y="226" width="5" height="65"/>
+      <polygon points="389,226 392.5,210 396,226"/>
+      <rect x="497" y="226" width="5" height="65"/>
+      <polygon points="496,226 499.5,210 503,226"/>
+      <rect x="406" y="240" width="4" height="51"/>
+      <polygon points="405,240 408,229 411,240"/>
+      <rect x="482" y="240" width="4" height="51"/>
+      <polygon points="481,240 484,229 487,240"/>
+
+      <path d="M512 291 Q562 270 616 291 Z"/>
+      <rect x="528" y="274" width="76" height="6"/>
+      <g>
+        <rect x="532" y="256" width="4" height="18"/>
+        <rect x="541.5" y="256" width="4" height="18"/>
+        <rect x="551" y="256" width="4" height="18"/>
+        <rect x="560.5" y="256" width="4" height="18"/>
+        <rect x="570" y="256" width="4" height="18"/>
+        <rect x="579.5" y="256" width="4" height="18"/>
+        <rect x="589" y="256" width="4" height="18"/>
+        <rect x="598.5" y="256" width="4" height="18"/>
+      </g>
+      <rect x="526" y="250" width="80" height="6"/>
+      <polygon points="526,250 566,238 606,250"/>
+
+      <path d="M640 266 Q665 234 690 266 Z"/>
+      <rect x="640" y="262" width="50" height="29"/>
+      <rect x="626" y="266" width="36" height="25"/>
+      <polygon points="624,266 644,253 664,266"/>
+
+      <g transform="rotate(5 731 291)">
+        <rect x="721" y="226" width="20" height="65" rx="2"/>
+        <rect x="724" y="217" width="14" height="10" rx="2"/>
+        <g fill="#a58b76">
+          <rect x="721" y="238" width="20" height="1.6"/>
+          <rect x="721" y="250" width="20" height="1.6"/>
+          <rect x="721" y="262" width="20" height="1.6"/>
+          <rect x="721" y="274" width="20" height="1.6"/>
+        </g>
+      </g>
+
+      <rect x="762" y="268" width="128" height="23"/>
+      <rect x="812" y="258" width="28" height="10"/>
+      <path d="M808 260 Q826 230 844 260 Z"/>
+      <line x1="826" y1="232" x2="826" y2="218" stroke="#b8a08b" stroke-width="2"/>
+      <polygon points="766,268 771,248 776,268"/>
+      <polygon points="782,268 787,252 792,268"/>
+      <polygon points="860,268 865,252 870,268"/>
+      <polygon points="876,268 881,248 886,268"/>
+
+      <rect x="906" y="262" width="86" height="29"/>
+      <rect x="904" y="254" width="14" height="37"/>
+      <rect x="980" y="254" width="14" height="37"/>
+      <path d="M932 262 Q949 236 966 262 Z" fill="#dcc8b0" stroke="#b8a08b" stroke-width="2"/>
+      <path d="M940 262 Q949 244 958 262 M949 240 V262" fill="none" stroke="#b8a08b" stroke-width="1.2"/>
+
+      <polygon points="1020,291 1032,258 1044,291"/>
+      <polygon points="1046,291 1060,250 1074,291"/>
+      <polygon points="1078,291 1088,264 1098,291"/>
+    </g>
+
+    <path d="M0 318 Q150 296 320 312 T640 308 T960 312 T1200 304 V400 H0 Z" fill="#9cb48f"/>
+    <path d="M0 345 Q220 322 470 340 T940 336 T1200 330 V400 H0 Z" fill="#6f8f6a"/>
+    <path d="M0 376 Q300 360 600 372 T1200 366 V400 H0 Z" fill="#4f6f52"/>
+
+    <use href="#trail" fill="none" stroke="#f3e5c6" stroke-width="2.5" stroke-dasharray="6 8" stroke-linecap="round" opacity="0.75"/>
+    <g transform="translate(1035 350)">
+      <line x1="0" y1="0" x2="0" y2="-30" stroke="#3f2f22" stroke-width="2"/>
+      <polygon points="0,-30 18,-25 0,-20" fill="#c9733f"/>
+    </g>
+
+    <polygon points="48,384 98,320 148,384" fill="#c9733f"/>
+    <polygon points="98,320 148,384 124,384" fill="#b0602f"/>
+    <polygon points="86,384 98,350 110,384" fill="#7d3f22"/>
+    <line x1="98" y1="320" x2="98" y2="310" stroke="#7d3f22" stroke-width="3"/>
+    <g stroke="#3f2f22" stroke-width="1" opacity="0.6">
+      <line x1="98" y1="320" x2="34" y2="388"/>
+      <line x1="98" y1="320" x2="162" y2="388"/>
+    </g>
+
+    <g transform="translate(188 386)">
+      <ellipse cx="0" cy="0" rx="46" ry="9" fill="#f6c453" opacity="0.35">
+        <animate attributeName="opacity" values="0.25;0.45;0.3;0.4;0.25" dur="1.6s" repeatCount="indefinite"/>
+      </ellipse>
+      <rect x="-23" y="-6" width="46" height="7" rx="3" fill="#6b4226" transform="rotate(14)"/>
+      <rect x="-23" y="-6" width="46" height="7" rx="3" fill="#7d4e2d" transform="rotate(-14)"/>
+      <g>
+        <animate attributeName="opacity" values="0.85;1;0.8;1;0.85" dur="1.2s" repeatCount="indefinite"/>
+        <path d="M0 -4 C-15 -18 -11 -32 0 -48 C11 -32 15 -18 0 -4 Z" fill="#f08a3c"/>
+        <path d="M0 -4 C-7 -13 -5 -22 0 -30 C5 -22 7 -13 0 -4 Z" fill="#f6c453"/>
+      </g>
+    </g>
+
+    <g>
+      <animateMotion dur="30s" repeatCount="indefinite"><mpath href="#trail"/></animateMotion>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.93;1" dur="30s" repeatCount="indefinite"/>
+      <g transform="scale(0.9)">
+        <g stroke="#2f3e2f" stroke-width="5" stroke-linecap="round">
+          <line x1="0" y1="-22" x2="0" y2="0">
+            <animateTransform attributeName="transform" type="rotate" values="24 0 -22;-24 0 -22;24 0 -22" dur="0.9s" repeatCount="indefinite"/>
+          </line>
+          <line x1="0" y1="-22" x2="0" y2="0">
+            <animateTransform attributeName="transform" type="rotate" values="-24 0 -22;24 0 -22;-24 0 -22" dur="0.9s" repeatCount="indefinite"/>
+          </line>
+        </g>
+        <rect x="-16" y="-45" width="13" height="22" rx="3" fill="#c9733f"/>
+        <rect x="-17" y="-51" width="15" height="7" rx="3.5" fill="#e9c46a"/>
+        <line x1="0" y1="-44" x2="0" y2="-22" stroke="#2f3e2f" stroke-width="7" stroke-linecap="round"/>
+        <line x1="0" y1="-38" x2="11" y2="-27" stroke="#2f3e2f" stroke-width="4" stroke-linecap="round"/>
+        <line x1="11" y1="-30" x2="16" y2="0" stroke="#6b4226" stroke-width="2" stroke-linecap="round"/>
+        <circle cx="1" cy="-52" r="6" fill="#2f3e2f"/>
+        <rect x="-6" y="-58" width="15" height="3" rx="1.5" fill="#6b4226"/>
+      </g>
+    </g>
+
+    <g fill="#3f5a45">
+      <polygon points="1086,388 1108,326 1130,388"/>
+      <polygon points="1091,356 1108,304 1125,356"/>
+      <polygon points="1132,392 1160,312 1188,392"/>
+      <polygon points="1139,350 1160,286 1181,350"/>
+      <polygon points="1060,392 1074,354 1088,392"/>
+    </g>
+
+    <rect width="1200" height="400" filter="url(#grain)" opacity="0.06"/>
+
+    <g font-family="'Avenir Next', 'Helvetica Neue', 'Segoe UI', 'Hiragino Sans', sans-serif" text-anchor="middle">
+      <text x="600" y="92" font-size="60" font-weight="800" fill="#2f3e2f" letter-spacing="4">Minatonton</text>
+      <text x="600" y="128" font-size="18" font-weight="500" fill="#5b4a3a" letter-spacing="2">Software Engineer  ·  Traveler  ·  Poker Player</text>
+    </g>
+  </g>
+</svg>
