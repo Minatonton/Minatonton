@@ -42,7 +42,6 @@
 
     <path d="M0 252 L90 210 L170 238 L260 196 L360 232 L470 204 L560 234 L660 200 L760 230 L880 196 L1000 232 L1100 204 L1200 228 V400 H0 Z" fill="url(#haze)"/>
 
-    <!-- Journey skyline: Cebu, Sri Lanka, Uzbekistan, Türkiye, Greece, Rome, Pisa, Budapest, Berlin -->
     <g fill="#b8a08b">
       <path d="M0 293 Q200 282 400 291 T800 289 T1200 291 V400 H0 Z"/>
 
@@ -194,7 +193,6 @@
     <g font-family="'Avenir Next', 'Helvetica Neue', 'Segoe UI', 'Hiragino Sans', sans-serif" text-anchor="middle">
       <text x="600" y="92" font-size="60" font-weight="800" fill="#2f3e2f" letter-spacing="4">Minatonton</text>
       <text x="600" y="128" font-size="18" font-weight="500" fill="#5b4a3a" letter-spacing="2">Software Engineer  ·  Traveler  ·  Poker Player</text>
-      <text x="600" y="156" font-size="12.5" fill="#8a7262" letter-spacing="1.5">Philippines · Sri Lanka · Uzbekistan · Türkiye · Greece · Italy · Hungary · Poland · Germany</text>
     </g>
   </g>
 </svg>
